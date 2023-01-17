@@ -1,0 +1,56 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/zotiaxcodes/methamphetamine/main/methverV0.0.1'))()
+
+
+local Window = Rayfield:CreateWindow({
+   Name = "meth.fun",
+   LoadingTitle = "METH.FUN",
+   LoadingSubtitle = "credits - J6sh",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, 
+      FileName = "METH"
+   },
+   Discord = {
+      Enabled = true,
+      Invite = "GGNAkNke", 
+      RememberJoins = true 
+   },
+   KeySystem = false, 
+   KeySettings = {
+      Title = "METH.FUN WHITELIST",
+      Subtitle = "Key System",
+      Note = "Please Enter Your Key That You Got From A Seller.",
+      FileName = "KEY SYSTEM",
+      SaveKey = false,
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = "test 123"
+   }
+})
+
+local Tab = Window:CreateTab("", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("METH MAIN")
+
+local Button = Tab:CreateButton({
+    Name = "meth.fun",
+    Callback = function()
+        local NotifyLib = loadstring(game:HttpGet("https://rentry.co/farzadaddy/raw"))()
+        NotifyLib.prompt('Hello The Script Will Load Soon', 'Loading..', 2)
+
+        ---source code created by .lua 
+        print("THANKS FOR BUYING")
+        print("time to load : 2.52 Sec")
+        print("loaded")
+        wait(4)
+        local NotifyLib = loadstring(game:HttpGet("https://rentry.co/farzaddaddy1/raw"))()
+        NotifyLib.prompt('METH', 'Almost Done!', 5)
+        NotifyLib.prompt('METH - Early Acces Expect Bugs', 'Loading..', 5)
+        NotifyLib.prompt('METH ', 'DONE', 5)
+        loadstring(game:HttpGet("https://github.com/zotiaxcodes/METHV0.0.2/blob/main/robloxhack"))() 
+    end,
+ })
+ local Button = Tab:CreateButton({
+  Name = "Camlock",
+  Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/zotiaxcodes/camlock/main/zotiax9999'))()
+      end})
